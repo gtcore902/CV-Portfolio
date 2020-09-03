@@ -1,5 +1,9 @@
 # Template for CV-Portfolio webpage
 
+![Illustrations web page desktop](../img/illustrations/illustrations-portfolio-desktop.png)
+![Illustrations web page mobile](../img/illustrations/illustrations-portfolio-mobile.png)
+![Illustrations web page mobile menu](../img/illustrations/illustrations-portfolio-mobile-menu.png)
+
 [Show webpage here](https://gaetantremois.fr)
 
 ## :point_right: You can use this template for yours own sites :exclamation:
