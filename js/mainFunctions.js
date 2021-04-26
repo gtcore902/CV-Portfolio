@@ -159,3 +159,15 @@ $(function () {
 $(function () {
     lazyload();
 })
+
+// Scroll into view
+window.addEventListener('load', () => {
+  let navigationLink = document.querySelectorAll('.navLink');
+  for (var element of navigationLink) {
+    element.addEventListener('click', function(e) {
+      e.preventDefault();
+      let destination = document.getElementById(e.target.innerHTML);
+      destination.scrollIntoView();
+    });
+  }
+});
