@@ -123,7 +123,7 @@ $(function () {
 $(function () {
     $('.flickr').on('click', () => window.location.href = "https://www.flickr.com/photos/186142483@N06/");
     $('.github').on('click', () => window.location.href = "https://github.com/gtcore902");
-    $('button[name="hire"]').on('click', () => window.location.href = "#contact");
+    $('button[name="hire"]').on('click', () => document.getElementById('Contact').scrollIntoView());
 })
 
 // Manage upArrow
@@ -170,4 +170,14 @@ window.addEventListener('load', () => {
       destination.scrollIntoView();
     });
   }
+});
+
+
+// write dates of exp
+window.addEventListener('load', () => {
+  let businessDateSince = 2006;
+  let webDateSince = 2020;
+  let dateNow = new Date().getFullYear();
+  document.querySelector('.dateExpBusiness').textContent = dateNow - businessDateSince;
+  document.querySelector('.dateExpWeb').textContent = dateNow - webDateSince;
 });
